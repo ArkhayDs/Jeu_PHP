@@ -18,5 +18,8 @@ Via PHPStorm ou VS, aucune différence, tout est dans la stack via docker.
 Bien veiller à ce que l'host se trouvant dans DataBase.php et le nom du container dans docker-compose pour la database est le même 'db'.
 En cas de différence, l'erreur no such file or directory sera retournée.
 
+## Question Docker-compose
+Est-il possible de demander à docker, après l'instanciation du container phpmyadmin, d'y installer une DB via un fichier .sql ?
+
 # Ressources pour Docker sur Windows (problème sur le Kernel Linux)
 https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package (cc. Dorian)
